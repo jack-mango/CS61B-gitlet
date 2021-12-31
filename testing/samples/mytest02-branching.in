@@ -1,0 +1,27 @@
+> init
+<<<
++ a.txt a.txt
+> add a.txt
+<<<
+> commit "added a"
+<<<
+> branch branch2
+<<<
++ b.txt b.txt
+> add b.txt
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "added b.txt and modified a.txt"
+<<<
+E b.txt
+= a.txt wug.txt
+> checkout branch2
+<<<
+* b.txt
+= a.txt a.txt
+> checkout master
+<<<
+= b.txt b.txt
+= a.txt wug.txt

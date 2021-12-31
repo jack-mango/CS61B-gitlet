@@ -1,0 +1,22 @@
+#Testing if adding, commiting, and removal all work well together
+> init
+<<<
++ wug.txt wug.txt
++ notwug.txt notwug.txt
+> add wug.txt
+<<<
+> add notwug.txt
+<<<
+> rm notwug.txt
+<<<
++ notwug.txt updatedwug.txt
+> add notwug.txt
+<<<
+> commit "added wug and notwug"
+<<<
++ notwug.txt notwug.txt
+> checkout -- notwug.txt
+<<<
+= notwug.txt updatedwug.txt
+
+

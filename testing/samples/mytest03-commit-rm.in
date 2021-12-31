@@ -1,0 +1,24 @@
+>init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "added wug.txt"
+<<<
+> branch other
+<<<
+> rm wug.txt
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> rm wug.txt
+<<<
++ wug2.txt wug2.txt
+> add wug2.txt
+<<<
+> commit "changed to wug2.txt"
+<<<
+> checkout other
+<<<
+= wug.txt wug.txt
